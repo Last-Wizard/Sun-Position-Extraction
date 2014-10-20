@@ -12,12 +12,11 @@ Sun-Position-Extraction
 ###利用全天域大气偏振模式的太阳位置获取方法
 ####algorithms to extract the sun position using skylight polarization pattern
 
->二维平面中太阳的位置获取算法 (2-dimensional)
+>二维平面中太阳的位置获取算法 (2-dimensional,get_sun_2d.py)
 >>仅获取太阳的方位角信息 (only get the azimuth angle of the sun)
 
->三维空间中太阳的位置获取算法 (3-dimensional)
+>三维空间中太阳的位置获取算法 (3-dimensional,get_sun_3d.py)
 >>获取太阳的方位角, 高度角信息 (can get the azimuthal angle & elevation angle of the sun)
 
 ###Environment
 >python 2.7.8, numpy 1.8.1, matplotlib 1.3.1, spyder 2.3.0
-
